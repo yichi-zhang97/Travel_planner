@@ -50,7 +50,7 @@ def distance_calculation():
             temp.append(dest)
             source_dest_pair.append(temp)
 
-    ####
+
     distance_list=[]
     loops = int(math.factorial(len(list)) / (2*math.factorial(len(list)-2)))
     #as if we've got the distance;
@@ -101,10 +101,6 @@ def distance_calculation():
 
 
 if __name__ == '__main__':
-    #assumption: 1. 一天是一个loop；
-    # 2. 来回距离一样；
-    # 3. be as specific as you can about the name of your place of interest
-    # 4. by car.
     distance_calculation()
 
 import gmaps
